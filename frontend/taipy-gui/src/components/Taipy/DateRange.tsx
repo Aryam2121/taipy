@@ -212,7 +212,7 @@ const DateRange = (props: DateRangeProps) => {
                                 dataType="datetime"
                                 value={value[1] && isValid(value[1]) ? value[1].toISOString() : ""}
                                 format={props.format}
-                                id={id && id + "-field"}
+                                id={id && id + "-field-end"}
                                 className={getSuffixedClassNames(className, "-text")}
                                 width={props.width && "100%"}
                             />
